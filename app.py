@@ -1,14 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Tic-Tac-Toe Simmulation
-Made during the "Using Python for Research" course by HarvardX.
-
-Created on Sun Jun 27 16:55:04 2021
-
-@author: Santiago Castellanos
-"""
-
-#
 from extensions.functions import *
 
 
