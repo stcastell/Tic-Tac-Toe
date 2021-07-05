@@ -1,4 +1,4 @@
-from extensions.functions import *
+from functions import *
 
 
 def play_game():
