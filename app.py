@@ -5,7 +5,12 @@ def play_game():
     player = 1
     board = create_board()
     while True:
-        board = random_place(board, player)
+        if len(possibilities(board)) > 0:
+            board = random_place(board, player)
+        else:
+            print(board)
+            print("It's a tie. No winners.")
+            break
         if row_win(board, player) == True or col_win(board, player) == True or diag_win(board, player) == True:
             print(board)
             print(evaluate(board))
